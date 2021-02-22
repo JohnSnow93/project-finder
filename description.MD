@@ -5,11 +5,12 @@
 4. 数据清洗：读取所有数据的excel，去除过长(20)、过短(4)的句子，并对数据去重，输出文本文件(一行一句)
 5. 分类：根据相似度对词进行分类、保存。相似度分类的方法有：
     - 编辑距离(levenshtein)计算
-    - 杰卡德系数计算
-    - TF 计算
-    - TFIDF 计算
+    - 杰卡德(Jaccard)系数计算
+    - 余弦夹角(Cosine)法:http://www.ruanyifeng.com/blog/2013/03/cosine_similarity.html
+    - TF(Term Frequency词频) 计算
+    - TF-IDF 计算
     - Word2Vec 计算
 
 
 ### 注意点
-1. 记录程序的中断和异常，方便回复
+1. 记录程序的中断和异常，方便恢复
