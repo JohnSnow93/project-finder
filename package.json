@@ -18,6 +18,10 @@
   },
   "homepage": "https://github.com/JohnSnow93/project-finder#readme",
   "dependencies": {
-    "nodejieba": "^2.5.1"
+    "cheerio": "^1.0.0-rc.5",
+    "fs-extra": "^9.1.0",
+    "json2xls": "^0.1.2",
+    "nodejieba": "^2.5.1",
+    "superagent": "^6.1.0"
   }
 }
