@@ -19,6 +19,7 @@
   "homepage": "https://github.com/JohnSnow93/project-finder#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.5",
+    "exceljs": "^4.2.0",
     "fs-extra": "^9.1.0",
     "json2xls": "^0.1.2",
     "nodejieba": "^2.5.1",
